@@ -128,7 +128,7 @@
    width: 175px;
    height: 47px;
    left: 74px;
-   border-bottom: 2px dashed #EC6645;
+   border-bottom: 3px dashed #EC6645;
    -webkit-transform: translateY(10px) translateX(2px) rotate(-18deg);
    position: absolute;
    top: 158px;
@@ -140,7 +140,7 @@
 .line2 {
    width: 175px;
    height: 37px;
-   border-bottom: 2px dashed #EC6645;
+   border-bottom: 3px dashed #EC6645;
    -webkit-transform: translateY(-10px) translateX(5px) rotate(18deg);
    position: absolute;
    bottom: -221px;
@@ -150,17 +150,139 @@
    bottom: -221px;
    left: -15px;
 }
+.line3{
+  border-bottom: 3px dashed #EC6645;
+  -webkit-transform: translateY(10px) translateX(204px) rotate(92deg);
+  position: absolute;
+  bottom: -70px;
+  left: 15px;
+  -moz-transform: translateY(10px) translateX(42px) rotate(53deg);
+  width: 105px;
+  height: 20px;
+}
 .external-circle {
     background-color: #FF6A49;
     border-radius: 50%;
+    padding: 2%;
       .internal-circle {
        border: 2px dashed white;
        border-radius: 50%;
-       height: 428px;
+       height: 480px;
        }
+}
+.grande{
+  padding: 25px;
 }
 .internal-circle {
 border: 2px dashed white;
 border-radius: 50%;
 height: 428px;
 }
+.circulo{
+  padding: 6%;
+}
+.circle-text{
+  width: 80%;
+  text-align: center;
+  padding: 17% 10%;
+  margin: 0 auto;
+  h4{
+    font-size: 30px;
+    color: white;
+  }
+   h3{
+      font-size: 30px;
+      color: white;
+   }
+}
+.text-left {
+  top: -265px;
+  text-align: center;
+    h3{
+      font-size: 24px;
+      color: red;
+    }
+    p{
+      margin: 21px 0;
+      font-size: 18px;
+      color: grey;
+    }
+}
+.text-centro{
+   top: 110px;
+    h3{
+      font-size: 24px;
+      color: red;
+    }
+    p{
+      margin: 21px 0;
+      font-size: 18px;
+      color: grey;
+    }
+  } 
+.metodologia2{
+    margin: 0 auto;
+    h1{
+      margin: 15% 0 10%;
+      text-align: center;
+      color: rgb(56, 165, 216);
+    }
+    h3{
+     margin: 0;
+     padding: 10px;
+     color: red;
+    }
+    p{
+     margin: 0;
+     padding: 10px;
+     color: grey;
+     font-size: 18px;
+    }
+    h2{
+      color: red;
+      padding: 25px;
+    }
+  }
+.mas{
+  padding: 2% 0 5%;
+}
+.mas{
+  width: 16%;
+  background-color: skyblue;
+  margin: 0 auto;
+  height: 50px;
+  padding: 16.5px;
+  border-radius: 14px;
+  margin-top: 4%;
+  margin-bottom: 16%;
+  color: white;
+  left: 30px;
+  text-align: center;
+  position: relative;
+    h1{
+        margin: 0;
+        font-size: 15px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
