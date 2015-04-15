@@ -6,10 +6,32 @@
 		<!-- Responsiveness -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 		<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+		<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 	</head>
 	<body>
 		<div class="container-fluid">
-			<header class="lap hidden-xs">
+           	<nav class="navbar navbar-default">
+                <div class="container">
+                 <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                   <span class="sr-only">Toggle navigation</span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                   </button>
+                </div>
+                 <!-- Collect the nav links, forms, and other content for toggling -->
+                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                   <ul class="nav navbar-nav">
+                     <li class="pink"><a href="#proyect">Project</a></li>
+                     <li class="skyblue"><a href="#about">About me</a></li>
+                     <li class="green"><a href="#contac">Contact</a></li>
+                   </ul>
+                 </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+            <header class="lap hidden-xs">
 					<div class="slogan">
 						<div class="row">
 							<div class="col-6">				
@@ -21,7 +43,7 @@
 								</div>
 							</div>
 						</div>
-          </div>
+                </div>
 			</header>
 			<header class="cel hidden-lg hidden-md">
 					<div class="boton2">
@@ -40,8 +62,53 @@
 			<div class="flecha hidden-xs">
 				<img src="fotos/iconos/iconos-15.png">
 			</div>
-			<section></section>
+			<section class="metodologia container text-center">
+                  <h1> Nuestra  Metodología </h1>
+                  <div class="row">
+                    <div class="col-md-1">
+                       <img src="fotos/iconos/iconos-17.png" alt="" class="primera-comilla">
+                    </div>
+                    <div class="col-md-10">
+                       <h3 class="text-center mb-35 mt-0"><span class="h3 text-danger">Nuestro examen es 3 veces más fuerte</span><br> que el proceso interno aplicado por nuestros propios clientes.</h3>
+                    </div>
+                    <div class="col-md-1">
+                      <img src="fotos/iconos/iconos-18.png" alt="" class="segunda-comilla">
+                    </div>
+                </div>
+			</section>
+			<section class="circulo container text-center">
+				<div class="row">
+              <div class="col-md-3 hidden-xs">
+                <div class="line1">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="external-circle p-14 active">
+                  <div class="internal-circle relative ph-42 ptp-7">
+                    <div class="circle-text-default hidden">
+                      <h4 class="mt-35 thin lead text-white">Obtenemos el perfil profesional del postulante mediante un análisis completo que identifica <br> el mejor talento para<br> cualquier puesto.<br> Nos basamos en 3 pilares:</h4>
+                    </div>
+                    <div class="circle-text-hover">
+                      <h3 class="book-heading">"El corazón de <br> nuestra metodología es <br> nuestro propio examen"</h3>
+                      <div class="absolute">
+                        <img src="http://www.serviciosfarolito.com/assets/icons/iconos-19.png" class="img-responsive" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6"></div>
+                  <div class="col-md-6 mt-7 border-middle"></div>
+                </div>
+              </div>
+              <div class="col-md-3 hidden-xs">
+                <div class="line2"></div>
+              </div>
+            </div>
+			</section>
 		</div>
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<!-- Javascripts de Bootstrap -->
 		<script src="javascript/b3/collapse.js"></script>

@@ -42,8 +42,8 @@
   height: 50px;
   padding: 16.5px;
   border-radius: 14px;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 8%;
+  margin-bottom: 16%;
   color: white;
     h3{
     	  margin: 0;
@@ -97,3 +97,70 @@
         	width: 100%;
         }
   }
+  /*metodologia*/
+.metodologia{
+    margin: 0 auto;
+    h1{
+      margin: 15% 0 4%;
+      text-align: center;
+      color: rgb(56, 165, 216);
+    }
+
+    h3{
+     margin: 0;
+    }
+  }
+.primera-comilla {
+      position: relative;
+      right: -222px;
+      top: -10px;
+}
+.segunda-comilla {
+     left: -170px;
+     position: relative;
+     bottom: -30px;
+}
+.text-danger {
+   color: #E9413E;
+   font-size: 29px;
+}
+.line1 {
+   width: 175px;
+   height: 47px;
+   left: 74px;
+   border-bottom: 2px dashed #EC6645;
+   -webkit-transform: translateY(10px) translateX(2px) rotate(-18deg);
+   position: absolute;
+   top: 158px;
+   left: 74px;
+   -moz-transform: translateY(10px) translateX(2px) rotate(-18deg);
+   position: absolute;
+   top: 158px;
+}
+.line2 {
+   width: 175px;
+   height: 37px;
+   border-bottom: 2px dashed #EC6645;
+   -webkit-transform: translateY(-10px) translateX(5px) rotate(18deg);
+   position: absolute;
+   bottom: -221px;
+   left: -15px;
+   -moz-transform: translateY(-10px) translateX(5px) rotate(18deg);
+   position: absolute;
+   bottom: -221px;
+   left: -15px;
+}
+.external-circle {
+    background-color: #FF6A49;
+    border-radius: 50%;
+      .internal-circle {
+       border: 2px dashed white;
+       border-radius: 50%;
+       height: 428px;
+       }
+}
+.internal-circle {
+border: 2px dashed white;
+border-radius: 50%;
+height: 428px;
+}
