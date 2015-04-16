@@ -5531,7 +5531,8 @@ button.close {
   background-image: url(../fotos/img/home.png); }
 
 .fondo h1 {
-  margin: 0; }
+  margin: 0;
+  font-family: Lato; }
 
 .slogan .row {
   margin: 0;
@@ -5544,11 +5545,13 @@ button.close {
   .slogan .row h1 {
     margin: 0;
     padding: 10% 12% 3%;
-    color: #28c5e6; }
+    color: #28c5e6;
+    font-family: Lato; }
   .slogan .row p {
     margin: 0 10% 2%;
     font-size: 18px;
-    padding: 0 10px 10px; }
+    padding: 0 10px 10px;
+    font-family: Lato; }
 
 .boton {
   width: 35%;
@@ -5562,6 +5565,7 @@ button.close {
   color: white; }
   .boton h3 {
     margin: 0;
+    font-family: Lato;
     font-size: 15px; }
 
 .flecha {
@@ -5586,7 +5590,8 @@ button.close {
   position: relative; }
   .boton2 h3 {
     margin: 0;
-    font-size: 13px; }
+    font-size: 13px;
+    font-family: Lato; }
 
 .slogan2 {
   text-align: center; }
@@ -5594,11 +5599,13 @@ button.close {
     padding: 12% 15%;
     margin: 0;
     color: #28c5e6;
-    font-size: 24px; }
+    font-size: 24px;
+    font-family: Lato; }
   .slogan2 p {
     margin: 0 10% 2%;
     font-size: 18px;
-    padding: 0 10px 10px; }
+    padding: 0 10px 10px;
+    font-family: Lato; }
   .slogan2 .foto img {
     width: 100%; }
 
@@ -5608,9 +5615,11 @@ button.close {
   .metodologia h1 {
     margin: 15% 0 4%;
     text-align: center;
-    color: #38a5d8; }
+    color: #38a5d8;
+    font-family: Lato; }
   .metodologia h3 {
-    margin: 0; }
+    margin: 0;
+    font-family: Lato; }
 
 .primera-comilla {
   position: relative;
@@ -5624,6 +5633,7 @@ button.close {
 
 .text-danger {
   color: #E9413E;
+  font-family: Lato;
   font-size: 29px; }
 
 .line1 {
@@ -5631,7 +5641,7 @@ button.close {
   height: 47px;
   left: 74px;
   border-bottom: 3px dashed #EC6645;
-  -webkit-transform: translateY(10px) translateX(2px) rotate(-18deg);
+  -webkit-transform: translateY(66px) translateX(2px) rotate(-18deg);
   position: absolute;
   top: 158px;
   left: 74px;
@@ -5643,7 +5653,7 @@ button.close {
   width: 175px;
   height: 37px;
   border-bottom: 3px dashed #EC6645;
-  -webkit-transform: translateY(-10px) translateX(5px) rotate(18deg);
+  -webkit-transform: translateY(66px) translateX(5px) rotate(18deg);
   position: absolute;
   bottom: -221px;
   left: -15px;
@@ -5654,7 +5664,7 @@ button.close {
 
 .line3 {
   border-bottom: 3px dashed #EC6645;
-  -webkit-transform: translateY(10px) translateX(204px) rotate(92deg);
+  -webkit-transform: translateY(-7px) translateX(204px) rotate(90deg);
   position: absolute;
   bottom: -70px;
   left: 15px;
@@ -5671,8 +5681,16 @@ button.close {
     border-radius: 50%;
     height: 480px; }
 
+.external-circle:hover {
+  background-color: white; }
+
 .grande {
   padding: 25px; }
+
+.internal-circle:hover {
+  border: 2px dashed red;
+  background-image: url(../fotos/personajes/ilustracion-26.png);
+  background-size: cover; }
 
 .internal-circle {
   border: 2px dashed white;
@@ -5685,61 +5703,72 @@ button.close {
 .circle-text {
   width: 80%;
   text-align: center;
-  padding: 17% 10%;
+  padding: 17% 5%;
   margin: 0 auto; }
   .circle-text h4 {
     font-size: 30px;
-    color: white; }
+    color: white;
+    font-family: Lato; }
   .circle-text h3 {
     font-size: 30px;
-    color: white; }
+    color: white;
+    font-family: Lato; }
 
 .text-left {
-  top: -265px;
+  top: -190px;
   text-align: center; }
   .text-left h3 {
     font-size: 24px;
-    color: red; }
+    color: red;
+    font-family: Lato; }
   .text-left p {
     margin: 21px 0;
     font-size: 18px;
-    color: grey; }
+    color: grey;
+    font-family: Lato; }
 
 .text-centro {
   top: 110px; }
   .text-centro h3 {
     font-size: 24px;
-    color: red; }
+    color: red;
+    font-family: Lato; }
   .text-centro p {
     margin: 21px 0;
     font-size: 18px;
-    color: grey; }
+    color: grey;
+    font-family: Lato; }
 
 .metodologia2 {
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 10%; }
   .metodologia2 h1 {
     margin: 15% 0 10%;
     text-align: center;
-    color: #38a5d8; }
+    color: #38a5d8;
+    font-family: Lato; }
   .metodologia2 h3 {
     margin: 0;
     padding: 10px;
-    color: red; }
+    color: red;
+    font-family: Lato; }
   .metodologia2 p {
     margin: 0;
     padding: 10px;
     color: grey;
-    font-size: 18px; }
+    font-size: 18px;
+    font-family: Lato; }
   .metodologia2 h2 {
     color: red;
-    padding: 25px; }
+    padding: 25px;
+    font-family: Lato; }
 
 .mas {
   padding: 2% 0 5%; }
 
 .mas {
   width: 16%;
-  background-color: skyblue;
+  background-color: #28c5e6;
   margin: 0 auto;
   height: 50px;
   padding: 16.5px;
@@ -5752,6 +5781,93 @@ button.close {
   position: relative; }
   .mas h1 {
     margin: 0;
-    font-size: 15px; }
+    font-size: 15px;
+    font-family: Lato; }
+
+.farolito {
+  text-align: center;
+  padding: 10% 0 0;
+  position: relative;
+  left: 2%; }
+  .farolito h1 {
+    margin: 0;
+    color: white; }
+  .farolito h3 {
+    margin: 3% 0 1%;
+    color: white; }
+
+.postulantes {
+  background-color: #28c5e6; }
+  .postulantes .row {
+    padding: 0 10%;
+    margin-left: 0;
+    margin-right: 0; }
+
+.numeros {
+  list-style: none; }
+  .numeros li {
+    margin: 160% 0; }
+
+.titulos {
+  list-style: none; }
+  .titulos li {
+    margin: 100% 0; }
+    .titulos li h3 {
+      font-size: 24px;
+      color: white;
+      border-bottom: 2px dashed white;
+      padding-bottom: 12%;
+      width: 122%;
+      font-family: Lato; }
+
+.imagenes {
+  list-style: none;
+  padding: 0; }
+  .imagenes li {
+    margin: 100% 0; }
+  .imagenes img {
+    width: 100%; }
+
+.descripcion {
+  list-style: none; }
+  .descripcion li {
+    margin: 40% 0 40% 15%; }
+    .descripcion li h3 {
+      font-size: 24px;
+      color: white;
+      font-family: Lato; }
+
+.tres {
+  margin: 100% 0; }
+
+.line4 {
+  border-bottom: 3px dashed #F6F3F2;
+  -webkit-transform: translateY(32px) translateX(490%) rotate(90deg);
+  position: absolute;
+  bottom: -328%;
+  left: 15px;
+  -moz-transform: translateY(10px) translateX(42px) rotate(53deg);
+  width: 123px;
+  height: 20px; }
+
+.line5 {
+  border-bottom: 3px dashed #F6F3F2;
+  -webkit-transform: translateY(276px) translateX(490%) rotate(90deg);
+  position: absolute;
+  bottom: -328%;
+  left: 15px;
+  -moz-transform: translateY(10px) translateX(42px) rotate(53deg);
+  width: 123px;
+  height: 20px; }
+
+.line6 {
+  border-bottom: 3px dashed #F6F3F2;
+  -webkit-transform: translateY(513px) translateX(490%) rotate(90deg);
+  position: absolute;
+  bottom: -328%;
+  left: 15px;
+  -moz-transform: translateY(10px) translateX(42px) rotate(53deg);
+  width: 123px;
+  height: 20px; }
 
 /*# sourceMappingURL=main.css.map */
