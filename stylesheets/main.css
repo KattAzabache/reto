@@ -5525,7 +5525,8 @@ button.close {
   padding-left: 0;
   padding-right: 0;
   margin: 0;
-  height: 100%; }
+  height: 100%;
+  font-family: Lato; }
 
 .lap {
   background-image: url(../fotos/img/home.png); }
@@ -5784,6 +5785,7 @@ button.close {
     font-size: 15px;
     font-family: Lato; }
 
+/*postulante*/
 .farolito {
   text-align: center;
   padding: 10% 0 0;
@@ -5829,7 +5831,8 @@ button.close {
     width: 100%; }
 
 .descripcion {
-  list-style: none; }
+  list-style: none;
+  padding: 0; }
   .descripcion li {
     margin: 40% 0 40% 15%; }
     .descripcion li h3 {
@@ -5869,5 +5872,54 @@ button.close {
   -moz-transform: translateY(10px) translateX(42px) rotate(53deg);
   width: 123px;
   height: 20px; }
+
+.oportunidades {
+  padding: 0px 30%;
+  text-align: center;
+  top: -92px;
+  position: relative; }
+  .oportunidades h1 {
+    font-size: 27px;
+    background-color: #01a6fc;
+    padding: 5%;
+    border-radius: 15px;
+    color: white;
+    border: 2px solid white; }
+
+/*postulantes2*/
+.postulantes2 {
+  background-color: #28c5e6; }
+
+.farolito2 {
+  text-align: center;
+  padding: 10% 0; }
+  .farolito2 h1 {
+    margin: 10% 7%;
+    color: white; }
+  .farolito2 h3 {
+    margin: 3% 12%;
+    color: white;
+    border-bottom: 2px dashed white;
+    padding: 5%; }
+  .farolito2 h4 {
+    margin: 10%;
+    color: white;
+    font-size: 23px; }
+  .farolito2 ul {
+    margin: 0;
+    padding: 0; }
+    .farolito2 ul li {
+      list-style: none; }
+
+.numeros2 {
+  width: 10%;
+  margin: 8%; }
+
+img.icn {
+  width: 20%; }
+
+/*seccion de empresas*/
+.contrata h2 {
+  border-bottom: 2px dashed #FF6A49; }
 
 /*# sourceMappingURL=main.css.map */
