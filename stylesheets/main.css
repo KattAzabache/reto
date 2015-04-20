@@ -5528,6 +5528,12 @@ button.close {
   height: 100%;
   font-family: Lato; }
 
+/*nav*/
+nav.navbar.navbar-default {
+  margin: 0;
+  position: fixed; }
+
+/*fondo*/
 .lap {
   background-image: url(../fotos/img/home.png); }
 
@@ -5576,7 +5582,8 @@ button.close {
   .flecha img {
     position: absolute;
     border-radius: 50%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    left: 47.5%; }
 
 /*celular*/
 .boton2 {
@@ -5777,7 +5784,6 @@ button.close {
   margin-top: 4%;
   margin-bottom: 16%;
   color: white;
-  left: 30px;
   text-align: center;
   position: relative; }
   .mas h1 {
@@ -5919,7 +5925,376 @@ img.icn {
   width: 20%; }
 
 /*seccion de empresas*/
-.contrata h2 {
-  border-bottom: 2px dashed #FF6A49; }
+.farolito-para-empresas {
+  text-align: center;
+  padding: 10% 0; }
+  .farolito-para-empresas h3 {
+    text-align: center;
+    color: #ff6a49;
+    font-size: 35px; }
+  .farolito-para-empresas h2 {
+    text-align: center;
+    font-size: 25px;
+    color: #bdbcbc; }
+  .farolito-para-empresas hr {
+    border-bottom: 2px dashed #ff6a49;
+    width: 50%; }
+  .farolito-para-empresas p {
+    text-align: center;
+    font-size: 18px; }
+  .farolito-para-empresas .row {
+    margin-right: 0;
+    margin-left: 0; }
+  .farolito-para-empresas .col-md-4 {
+    margin-top: 30px; }
+  .farolito-para-empresas span {
+    color: #64c7e2; }
+
+.cont {
+  padding: 0px 43%;
+  text-align: center;
+  top: 47px;
+  position: relative; }
+  .cont h1 {
+    font-size: 27px;
+    background-color: red;
+    padding: 5%;
+    border-radius: 33px;
+    color: white;
+    border: 2px solid white; }
+
+.cont2 {
+  padding: 0px 30%;
+  text-align: center;
+  top: 47px;
+  position: relative;
+  margin: 3%; }
+  .cont2 h1 {
+    font-size: 27px;
+    background-color: red;
+    padding: 5%;
+    border-radius: 33px;
+    color: white;
+    border: 2px solid white; }
+
+/*centros*/
+.centroeducativo {
+  background-color: #77d248; }
+
+.educativo {
+  text-align: center;
+  padding: 10% 0; }
+  .educativo h3 {
+    text-align: center;
+    color: white;
+    font-size: 35px; }
+  .educativo h2 {
+    text-align: center;
+    font-size: 25px;
+    color: #fcf07e; }
+  .educativo hr {
+    border-bottom: 2px dashed white;
+    width: 50%;
+    border-top: 0;
+    padding: 5px; }
+  .educativo p {
+    text-align: center;
+    font-size: 18px;
+    color: white; }
+  .educativo .row {
+    margin-right: 0;
+    margin-left: 0; }
+  .educativo .col-md-4 {
+    margin-top: 30px; }
+  .educativo span {
+    color: #64c7e2; }
+  .educativo img {
+    border-radius: 50%; }
+
+.contc {
+  padding: 0px 43%;
+  text-align: center;
+  top: 47px;
+  position: relative; }
+  .contc h1 {
+    font-size: 27px;
+    background-color: transparent;
+    padding: 5%;
+    border-radius: 33px;
+    color: white;
+    border: 2px solid white; }
+
+.contc2 {
+  padding: 0px 30%;
+  text-align: center;
+  top: 47px;
+  position: relative;
+  margin: 0 0 5%; }
+  .contc2 h1 {
+    font-size: 27px;
+    background-color: transparent;
+    padding: 5%;
+    border-radius: 33px;
+    color: white;
+    border: 2px solid white; }
+
+/*lista de  oportunidades*/
+.lista {
+  background-image: url(../fotos/img/img-03.png);
+  padding: 10%;
+  padding-bottom: 10%; }
+
+.completo {
+  padding: 0 16%; }
+
+.contenido h1 {
+  text-align: center;
+  margin: 0;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  color: gray; }
+.contenido .asesor h3 {
+  width: 35%;
+  padding: 1%;
+  border-bottom: 2px solid #28c5e6;
+  color: #28c5e6; }
+.contenido .asesor h5 {
+  font-size: 20px;
+  color: gray; }
+.contenido .asesor h4 {
+  color: red;
+  border: 1px solid red;
+  width: 13%;
+  padding: 1%;
+  border-radius: 30%;
+  left: 85%;
+  position: relative;
+  margin: 0; }
+.contenido .practicante h3 {
+  width: 35%;
+  padding: 1%;
+  border-bottom: 2px solid #28c5e6;
+  color: #28c5e6; }
+.contenido .practicante h5 {
+  font-size: 20px;
+  color: gray; }
+.contenido .practicante h4 {
+  color: red;
+  border: 1px solid red;
+  width: 13%;
+  padding: 1%;
+  border-radius: 30%;
+  left: 85%;
+  position: relative;
+  margin: 0; }
+.contenido .seguridad h3 {
+  width: 35%;
+  padding: 1%;
+  border-bottom: 2px solid #28c5e6;
+  color: #28c5e6; }
+.contenido .seguridad h5 {
+  font-size: 20px;
+  color: gray; }
+.contenido .seguridad h4 {
+  color: red;
+  border: 1px solid red;
+  width: 13%;
+  padding: 1%;
+  border-radius: 30%;
+  left: 85%;
+  position: relative;
+  margin: 0; }
+
+.ver-todos {
+  margin-top: 12% !important; }
+  .ver-todos a {
+    font-weight: 700;
+    border-radius: 17px !important;
+    padding: 14px 40px !important;
+    background-color: #9E9D9D;
+    color: #EBEEF2; }
+
+/*blog*/
+.blog {
+  padding: 8% 15px 10%; }
+  .blog h1 {
+    text-align: center;
+    margin-bottom: 7%;
+    color: gray; }
+  .blog .row {
+    margin-right: 0;
+    margin-left: 0; }
+  .blog .col-md-4 {
+    text-align: center; }
+  .blog .bloques-hover {
+    top: -22px;
+    position: relative; }
+    .blog .bloques-hover .parrafo {
+      padding: 10% 15%;
+      text-align: justify;
+      font-size: 20px; }
+  .blog img {
+    z-index: 10; }
+  .blog .bloques {
+    top: -22px;
+    position: relative; }
+    .blog .bloques .parrafo {
+      padding: 10% 15%;
+      text-align: justify;
+      font-size: 20px; }
+
+.bloques-hover:hover {
+  background-color: yellow;
+  z-index: 1; }
+
+.blog .ver-todos a {
+  background-color: #28c5e6;
+  color: white;
+  position: relative;
+  top: 50px; }
+
+.ver-todos2 {
+  margin-top: 12% !important; }
+
+.blog .ver-todos2 a {
+  font-weight: 700;
+  border-radius: 17px !important;
+  padding: 14px 60px !important;
+  background-color: #28c5e6;
+  color: white;
+  position: relative;
+  top: 8px; }
+
+/*contactos*/
+.contacto {
+  text-align: center;
+  background-color: rgba(204, 203, 203, 0.72); }
+
+.contactanos {
+  padding: 8% 5%; }
+  .contactanos h2 {
+    margin: 5%;
+    font-size: 50px;
+    color: grey; }
+
+.estilo-nombre {
+  height: 8%;
+  width: 40%;
+  border: 0;
+  font-size: 20px;
+  margin: 1%; }
+
+.correo {
+  height: 8%;
+  width: 40%;
+  border: 0;
+  font-size: 20px;
+  margin: 1%; }
+
+.mensaje {
+  height: 15%;
+  width: 40%;
+  border: 0;
+  font-size: 20px;
+  margin: 1%; }
+
+.buton.bt-enviar {
+  width: 13%;
+  background-color: grey;
+  height: 36px;
+  padding: 9px;
+  border-radius: 12px;
+  margin-top: 3%;
+  color: white;
+  left: 58%;
+  position: relative; }
+  .buton.bt-enviar .butoncolor {
+    background-color: transparent;
+    border: 0;
+    position: relative; }
+
+.estilo-nombre2 {
+  height: 7%;
+  width: 75%;
+  border: 0;
+  font-size: 17px;
+  margin: 1%;
+  text-align: center; }
+
+.correo2 {
+  height: 7%;
+  width: 75%;
+  border: 0;
+  font-size: 17px;
+  margin: 1%;
+  text-align: center; }
+
+.mensaje2 {
+  height: 15%;
+  width: 75%;
+  border: 0;
+  font-size: 17px;
+  margin: 1%;
+  text-align: center; }
+
+.buton.bt-enviar2 {
+  width: 29%;
+  background-color: grey;
+  height: 36px;
+  padding: 9px;
+  border-radius: 12px;
+  top: 3px;
+  color: white;
+  margin: 0 auto;
+  position: relative; }
+  .buton.bt-enviar2 .butoncolor2 {
+    background-color: transparent;
+    border: 0;
+    position: relative; }
+
+.footer {
+  color: #777777;
+  background-color: #989898;
+  height: 49px; }
+  .footer .redes {
+    padding-left: 21px;
+    float: left; }
+    .footer .redes ul {
+      padding-left: 0;
+      list-style: none;
+      margin-bottom: 0;
+      margin-top: 0; }
+      .footer .redes ul li {
+        padding-left: 7px;
+        position: relative;
+        top: -14px;
+        display: inline-block; }
+        .footer .redes ul li img {
+          padding: 2px;
+          border-radius: 50%;
+          background-color: #fff;
+          border: 1px solid #ddd; }
+  .footer .redes2 ul {
+    list-style: none;
+    text-align: center;
+    padding: 0; }
+    .footer .redes2 ul li {
+      padding-left: 7px;
+      position: relative;
+      top: -14px;
+      display: inline-block; }
+      .footer .redes2 ul li img {
+        padding: 2px;
+        border-radius: 50%;
+        background-color: #fff;
+        border: 1px solid #ddd; }
+  .footer .reservar {
+    float: right;
+    width: 21%;
+    padding: 12px; }
+    .footer .reservar h5 {
+      color: white;
+      font-size: 17px;
+      margin: 1%; }
 
 /*# sourceMappingURL=main.css.map */

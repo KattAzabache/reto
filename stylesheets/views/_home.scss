@@ -5,6 +5,26 @@
 	height: 100%;	  
   font-family: Lato;
 }
+/*nav*/
+nav.navbar.navbar-default {
+margin: 0;
+position: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*fondo*/
 .lap{
 	background-image: url(../fotos/img/home.png);
 }
@@ -22,7 +42,7 @@
         left: 50%;
         text-align: center;
         img{
-        	  margin-top: 20%;
+        	  margin-top: 20%; 
         }
         h1 {
           margin: 0;
@@ -64,6 +84,7 @@
 	 	  position: absolute;
       border-radius: 50%;
       margin: 0 auto;
+      left: 47.5%;
 	 }
 }
 
@@ -286,7 +307,6 @@ height: 428px;
   margin-top: 4%;
   margin-bottom: 16%;
   color: white;
-  left: 30px;
   text-align: center;
   position: relative;
     h1{
@@ -447,8 +467,477 @@ img.icn {
   width: 20%;
 }
  /*seccion de empresas*/
- .contrata h2 {
-  border-bottom: 2px dashed #FF6A49;
+.farolito-para-empresas{
+  text-align: center;
+  padding: 10% 0;
+
+  h3{
+    text-align: center;
+    color: rgb(255, 106, 73);
+    font-size: 35px;
+  }
+  h2{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(189, 188, 188);
+  }
+  hr{
+  border-bottom: 2px dashed rgb(255, 106, 73);
+  width: 50%;
 }
+  p{
+    text-align: center;
+    font-size: 18px;
+  }
+  .row{
+   margin-right: 0;
+   margin-left: 0;
+  }
+  .col-md-4{
+      margin-top: 30px;
+  }
+  span{
+    color: rgb(100, 199, 226);
+  }
+}
+.cont{
+  padding: 0px 43%;
+  text-align: center;
+  top: 47px;
+  position: relative;
+     h1{
+         font-size: 27px;
+         background-color: red;
+         padding: 5%;
+         border-radius: 33px;
+         color: white;
+         border: 2px solid white;
+       }
+}
+.cont2{
+  padding: 0px 30%;
+  text-align: center;
+  top: 47px;
+  position: relative;
+  margin: 3%;
+     h1{
+         font-size: 27px;
+         background-color: red;
+         padding: 5%;
+         border-radius: 33px;
+         color: white;
+         border: 2px solid white;
+       }
+}
+ /*centros*/
+.centroeducativo{ 
+  background-color: #77d248;
+}
+.educativo{
+   text-align: center;
+   padding: 10% 0 ;
+  h3{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+  }
+  h2{
+    text-align: center;
+    font-size: 25px;
+    color: #fcf07e;
+  }
+  hr{
+  border-bottom: 2px dashed white;
+  width: 50%;
+  border-top: 0;
+  padding: 5px;
+}
+  p{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+  }
+  .row{
+   margin-right: 0;
+   margin-left: 0;
+  }
+  .col-md-4{
+      margin-top: 30px;
+  }
+  span{
+    color: rgb(100, 199, 226);
+  }
+  img{
+    border-radius: 50%;
+  }
+}
+.contc{
+  padding: 0px 43%;
+  text-align: center;
+  top: 47px;
+  position: relative;
+     h1{
+         font-size: 27px;
+         background-color: transparent;
+         padding: 5%;
+         border-radius: 33px;
+         color: white;
+         border: 2px solid white;
+       }
+}
+.contc2{
+  padding: 0px 30%;
+  text-align: center;
+  top: 47px;
+  position: relative;
+  margin: 0 0 5%;
+     h1{
+         font-size: 27px;
+         background-color: transparent;
+         padding: 5%;
+         border-radius: 33px;
+         color: white;
+         border: 2px solid white;
+       }
+}
+/*lista de  oportunidades*/
+.lista{
+  background-image: url(../fotos/img/img-03.png);
+  padding:10%; 
+  padding-bottom: 10%;
+} 
+.completo {
+padding: 0 16%;
+}
+.contenido{
+      h1 {
+    text-align: center;
+    margin: 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: gray;
+    }
+   .asesor {
+      h3 {
+      width: 35%;
+      padding: 1%;
+      border-bottom: 2px solid #28c5e6;
+      color: #28c5e6;
+      }
+      h5 {
+      font-size: 20px;
+      color: gray;
+      }
+      h4 {
+      color: red;
+      border: 1px solid red;
+      width: 13%;
+      padding: 1%;
+      border-radius: 30%;
+      left: 85%;
+      position: relative;
+      margin: 0;
+      }
+   }
+   .practicante{
+      h3 {
+      width: 35%;
+      padding: 1%;
+      border-bottom: 2px solid #28c5e6;
+      color: #28c5e6;
+      }
+      h5 {
+      font-size: 20px;
+      color: gray;
+      }
+      h4 {
+      color: red;
+      border: 1px solid red;
+      width: 13%;
+      padding: 1%;
+      border-radius: 30%;
+      left: 85%;
+      position: relative;
+      margin: 0;
+      }
+
+   }
+   .seguridad {
+      h3 {
+      width: 35%;
+      padding: 1%;
+      border-bottom: 2px solid #28c5e6;
+      color: #28c5e6;
+      }
+      h5 {
+     font-size: 20px;
+     color: gray;
+     }
+      h4 {
+      color: red;
+      border: 1px solid red;
+      width: 13%;
+      padding: 1%;
+      border-radius: 30%;
+      left: 85%;
+      position: relative;
+      margin: 0;
+      }
+   }
+}
+.ver-todos{
+    margin-top: 12% !important;
+
+    a{
+    font-weight: 700;
+    border-radius: 17px !important;
+    padding: 14px 40px !important;
+    background-color: #9E9D9D;
+    color: #EBEEF2;
+    } 
+}
+
+/*blog*/
+.blog{
+    padding: 8% 15px 10%;
+    h1 {
+      text-align: center;
+      margin-bottom: 7%;
+      color: gray;
+      }
+    .row{
+      margin-right: 0;
+      margin-left: 0;
+    }
+    .col-md-4 {
+      text-align: center;
+      }
+    .bloques-hover{
+    top: -22px;
+    position: relative;
+      .parrafo {
+      padding: 10% 15%;
+      text-align: justify;
+      font-size: 20px;
+      }    
+    }
+    img {
+     z-index: 10;
+    }
+    .bloques{
+    top: -22px;
+    position: relative;
+      .parrafo {
+      padding: 10% 15%;
+      text-align: justify;
+      font-size: 20px;
+      }
+    } 
+}
+.bloques-hover:hover{
+  background-color: yellow;
+  z-index: 1;
+}
+.blog .ver-todos a{
+    background-color: #28c5e6;
+    color: white;
+    position: relative;
+    top: 50px;
+    } 
+.ver-todos2{
+    margin-top: 12% !important;}
+
+.blog .ver-todos2 a{
+    font-weight: 700;
+    border-radius: 17px !important;
+    padding: 14px 60px !important;
+    background-color: #28c5e6;
+    color: white;
+    position: relative;
+    top: 8px;
+    } 
+    
+/*contactos*/
+.contacto {
+text-align: center;
+background-color: rgba(204, 203, 203, 0.72);
+}
+
+.contactanos {
+padding: 8% 5%;
+  h2 {
+   margin: 5%;
+   font-size: 50px;
+   color: grey;
+   }
+}
+.estilo-nombre {
+  height: 8%;
+  width: 40%;
+  border: 0;
+  font-size: 20px;
+  margin: 1%;
+}
+.correo{
+  height: 8%;
+  width: 40%;
+  border: 0;
+  font-size: 20px;
+  margin: 1%;
+}
+.mensaje{
+  height: 15%;
+  width: 40%;
+  border: 0;
+  font-size: 20px;
+  margin: 1%;
+}
+
+.buton.bt-enviar {
+  width: 13%;
+  background-color: grey;
+  height: 36px;
+  padding: 9px;
+  border-radius: 12px;
+  margin-top: 3%;
+  color: white;
+  left: 58%;
+  position: relative;
+    .butoncolor {
+        background-color: transparent;
+        border: 0;
+        position: relative;
+        }
+}
+.estilo-nombre2 {
+  height: 7%;
+  width: 75%;
+  border: 0;
+  font-size: 17px;
+  margin: 1%;
+  text-align: center;
+}
+.correo2{
+  height: 7%;
+  width: 75%;
+  border: 0;
+  font-size: 17px;
+  margin: 1%;
+  text-align: center;
+}
+.mensaje2{
+  height: 15%;
+  width: 75%;
+  border: 0;
+  font-size: 17px;
+  margin: 1%;
+  text-align: center;
+}
+
+.buton.bt-enviar2 {
+  width: 29%;
+  background-color: grey;
+  height: 36px;
+  padding: 9px;
+  border-radius: 12px;
+  top: 3px;
+  color: white;
+  margin: 0 auto;
+  position: relative;
+    .butoncolor2 {
+        background-color: transparent;
+        border: 0;
+        position: relative;
+        }
+}
+.footer{
+  color: #777777;
+  background-color: #989898;
+  height: 49px;
+   .redes{
+    padding-left: 21px;
+    float: left;
+     ul{
+      padding-left: 0;
+      list-style: none;
+      margin-bottom: 0;
+      margin-top: 0;
+       li{
+        padding-left: 7px;
+        position: relative;
+        top: -14px;
+        display: inline-block;
+         img{
+          padding: 2px;
+          border-radius: 50%;
+          background-color: #fff;
+          border: 1px solid #ddd;
+         }
+       }
+     }
+   }
+   .redes2{
+     ul{
+      list-style: none;
+      text-align: center;
+      padding: 0;
+       li{
+        padding-left: 7px;
+        position: relative;
+        top: -14px;
+        display: inline-block;
+         img{
+          padding: 2px;
+          border-radius: 50%;
+          background-color: #fff;
+          border: 1px solid #ddd;
+         }
+       }
+     }
+   }
+   .reservar{
+    float: right;
+    width: 21%;
+    padding: 12px;
+     h5{
+      color: white;
+      font-size: 17px;
+      margin: 1%;
+     }
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
