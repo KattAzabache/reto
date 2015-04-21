@@ -5,33 +5,40 @@
 		<title>Farolito</title>
 		<meta charset="utf-8">
 		<!-- Responsiveness -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
 		<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
 		<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
 	</head>
 	<body>
 		<div class="container-fluid">
-            <nav class="navbar navbar-default ">
-                <div class="container">
-                 <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                   <span class="sr-only">Toggle navigation</span>
-                   <span class="icon-bar"></span>
-                   <span class="icon-bar"></span>
-                   <span class="icon-bar"></span>
-                   </button>
-                </div>
-                 <!-- Collect the nav links, forms, and other content for toggling -->
-                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                   <ul class="nav navbar-nav">
-                     <li class="pink"><a href="#proyect">Project</a></li>
-                     <li class="skyblue"><a href="#about">About me</a></li>
-                     <li class="green"><a href="#contac">Contact</a></li>
-                   </ul>
-                 </div><!-- /.navbar-collapse -->
-                </div><!-- /.container-fluid -->
-            </nav>
+       <div class="barra-de-navegacion">
+            <div class="menu_bar">
+               <a href="#" class="bt-menu">=</a>
+                <div class="boton2 hidden-lg hidden-md">
+                 <h3>CREA TU PERFIL</h3>
+               </div>
+            </div>
+            <nav>
+              <ul>
+                <li class="hidden-lg hidden-md"><a href="#">home</a></li>
+                <li><a href="#">Sobre nosotros</a></li><li class="hidden-xs">|</li>
+                <li class="hidden-lg hidden-md"><a href="#">ingresa tu cuenta</a></li>
+                <li class="hidden-lg hidden-md"><a href="#">blog</a></li>
+                <li class="hidden-xs"><a href="#oportunidades">Oportunidades</a></li>
+                <li class="submenu hidden-xs">
+                  <a href="#"><span class="icon-rocket"></span><button>ES<span class="caret icon-arrow-down6"></span></button></a>
+                  <ul class="children">
+                    <li><a href="#">ESPAÑOL <span class="icon-dot"></span></a></li>
+                    <li><a href="#">INGLES <span class="icon-dot"></span></a></li>
+                  </ul>
+                </li>
+                <li class="ingresar hidden-xs"><a href="#"><span class="icon-earth"></span><button>INGRESAR</button></a></li>
+              </ul>
+
+            </nav>            
+       </div>
         <header class="lap hidden-xs">
 					<div class="slogan">
 						<div class="row">
@@ -47,9 +54,7 @@
           </div>
 			</header>
 			<header class="cel hidden-lg hidden-md">
-					<div class="boton2">
-						<h3>CREA TU PERFIL</h3>
-					</div>
+
 					<div class="slogan2">
 								<img src="fotos/iconos/iconos-20.png">
 								<h1>Identificar al mejor talento y maximizamos su potencial</h1>
@@ -276,7 +281,7 @@
         <img src="fotos/iconos/iconos-15.png">
       </div>  
       <section class="lista hidden-xs">
-        <div class="contenido container">
+        <div class="contenido container" id="oportunidades">
            <h1>Lista de Oportunidades</h1>
            <div class="completo">
             <div class="asesor">
@@ -302,10 +307,10 @@
                <h5>Horario: 8:00 am - 6:00 pm</h5>
                <h4>VER MAS</h4>
             </div>
-            <div class="ver-todos text-center">
-                <a href="">VER TODOS</a>
-            </div>
           </div>
+        </div>
+        <div class="ver-todos text-center">
+               <a href="">VER TODOS</a>
         </div>
       </section> 
       <div class="flecha container hidden-xs">
@@ -403,16 +408,16 @@
       <section class="footer">
         <div class="redes hidden-xs">
           <ul>
-            <li><img src="fotos/iconos/iconos-12.png"></li>
-            <li><img src="fotos/iconos/iconos-13.png"></li>
-            <li><img src="fotos/iconos/iconos-14.png"></li>
+            <li><a href="www.facebook.com"><img src="fotos/iconos/iconos-12.png"></a></li>
+            <li><a href="www.twitter.com"><img src="fotos/iconos/iconos-13.png"></a></li>
+            <li><a href="www.gmail.com"><img src="fotos/iconos/iconos-14.png"></a></li>
           </ul>
         </div>
         <div class="redes2 hidden-lg hidden-md">
           <ul>
-            <li><img src="fotos/iconos/iconos-12.png"></li>
-            <li><img src="fotos/iconos/iconos-13.png"></li>
-            <li><img src="fotos/iconos/iconos-14.png"></li>
+            <li><a href="www.facebook.com"><img src="fotos/iconos/iconos-12.png"></a></li>
+            <li><a href="www.twitter.com"><img src="fotos/iconos/iconos-13.png"></a></li>
+            <li><a href="www.gmail.com"><img src="fotos/iconos/iconos-14.png"></a></li>
           </ul>
         </div>
         <div class="reservar hidden-xs">
