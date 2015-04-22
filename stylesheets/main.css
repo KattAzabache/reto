@@ -5538,13 +5538,13 @@ button.close {
   z-index: 100000; }
 
 .barra-de-navegacion nav {
-  background-color: #C0E3F8;
+  background-color: white;
   z-index: 1000;
   width: 100%; }
   .barra-de-navegacion nav ul {
     list-style: none;
     text-align: right;
-    padding-right: 6%; }
+    padding-right: 4%; }
     .barra-de-navegacion nav ul li {
       display: inline-block;
       position: relative; }
@@ -5552,7 +5552,7 @@ button.close {
 .barra-de-navegacion nav ul li a {
   display: block;
   text-decoration: none;
-  padding: 20px;
+  padding: 10px 15px;
   color: black; }
 
 .barra-de-navegacion nav ul li a span {
@@ -5563,7 +5563,7 @@ button.close {
 
 .barra-de-navegacion nav ul li .children {
   display: none;
-  background: skyblue;
+  background-color: #57c4f1;
   position: absolute;
   width: 150%;
   z-index: 1000;
@@ -5621,12 +5621,12 @@ button.close {
     width: 100%;
     position: fixed;
     top: 0;
-    background-color: #bffbfb; }
+    background-color: #E6F6FD; }
 
   .menu_bar .bt-menu {
     display: block;
-    padding: 20px;
-    color: #fff;
+    padding: 10px;
+    color: black;
     overflow: hidden;
     font-size: 25px;
     font-weight: bold;
@@ -5642,14 +5642,19 @@ button.close {
     position: fixed;
     right: 100%;
     margin: 0;
-    overflow: scroll; }
+    top: 55px;
+    background-color: #57c4f1; }
 
   .barra-de-navegacion nav ul li {
     display: block;
-    border-bottom: 1px dashed rgba(255, 255, 255, 0.5); }
+    border-bottom: 3px dashed rgba(255, 255, 255, 0.5);
+    padding: 10%;
+    text-align: center;
+    font-size: 30px; }
 
   .barra-de-navegacion nav ul li a {
-    display: block; }
+    display: block;
+    color: white; }
 
   .barra-de-navegacion nav ul li:hover .children {
     display: none; }
@@ -5717,15 +5722,15 @@ button.close {
 
 /*celular*/
 .boton2 {
-  width: 30%;
+  width: 27%;
   background-color: rgba(249, 6, 13, 0.84);
   padding: 8px;
   border-radius: 14px;
-  margin-bottom: 10%;
   color: white;
-  left: 64%;
+  left: 68%;
   position: absolute;
-  top: 20px; }
+  top: 14px;
+  text-align: center; }
   .boton2 h3 {
     margin: 0;
     font-size: 13px;
@@ -5837,6 +5842,9 @@ button.close {
 
 .circulo {
   padding: 6%; }
+
+.circle-text h4 :hover {
+  color: transparent; }
 
 .circle-text {
   width: 80%;
