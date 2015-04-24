@@ -225,6 +225,8 @@
     	  margin: 0; 
         font-family: Lato;
         font-size: 15px;
+        color: white;
+        font-weight: 700;
     }
 
 }
@@ -964,8 +966,10 @@ padding: 8% 5%;
     .butoncolor {
         background-color: transparent;
         border: 0;
-        position: relative;
+        a{
+          color: white;
         }
+      }
 }
 .estilo-nombre2 {
   height: 7%;
@@ -1005,8 +1009,10 @@ padding: 8% 5%;
     .butoncolor2 {
         background-color: transparent;
         border: 0;
-        position: relative;
+        a{
+          color: white;
         }
+      }
 }
 .footer{
   color: #777777;
