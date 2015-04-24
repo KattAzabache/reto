@@ -34,3 +34,34 @@ function main () {
 		$(this).children('.children').slideToggle();
 	});
 }
+    
+
+
+/*<Script>
+   document.write ('<a target = "_ blank" href = "http://www.facebook.com/sharer.php?u=' + encodeURIComponent ('http://www.facebook.com/php') + '"> Compartir en Facebook </a>');
+</ Script*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
