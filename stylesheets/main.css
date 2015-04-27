@@ -5708,7 +5708,9 @@ button.close {
   .boton h3 {
     margin: 0;
     font-family: Lato;
-    font-size: 15px; }
+    font-size: 15px;
+    color: white;
+    font-weight: 700; }
 
 .flecha {
   position: relative;
@@ -5722,19 +5724,20 @@ button.close {
 
 /*celular*/
 .boton2 {
-  width: 27%;
+  width: 30%;
   background-color: rgba(249, 6, 13, 0.84);
-  padding: 8px;
+  padding: 7px 3px;
   border-radius: 14px;
-  color: white;
   left: 68%;
   position: absolute;
   top: 14px;
   text-align: center; }
   .boton2 h3 {
     margin: 0;
-    font-size: 13px;
-    font-family: Lato; }
+    font-family: Lato;
+    font-size: 72%;
+    font-weight: 700;
+    color: white; }
 
 .slogan2 {
   text-align: center; }
@@ -6065,21 +6068,22 @@ img.icn {
 /*seccion de empresas*/
 .farolito-para-empresas {
   text-align: center;
-  padding: 10% 0; }
+  padding: 13% 5%; }
   .farolito-para-empresas h3 {
     text-align: center;
     color: #ff6a49;
     font-size: 35px; }
   .farolito-para-empresas h2 {
     text-align: center;
-    font-size: 25px;
+    font-size: 27px;
+    margin: 5% 0;
     color: #bdbcbc; }
   .farolito-para-empresas hr {
     border-bottom: 2px dashed #ff6a49;
     width: 50%; }
   .farolito-para-empresas p {
     text-align: center;
-    font-size: 18px; }
+    font-size: 15px; }
   .farolito-para-empresas .row {
     margin-right: 0;
     margin-left: 0; }
@@ -6089,7 +6093,7 @@ img.icn {
     color: #64c7e2; }
 
 .cont {
-  padding: 0px 42%;
+  width: 25%;
   text-align: center;
   top: 47px;
   position: relative; }
@@ -6102,13 +6106,13 @@ img.icn {
     border: 2px solid white; }
 
 .cont2 {
-  padding: 0px 30%;
+  padding: 0px 27%;
   text-align: center;
   top: 47px;
   position: relative;
-  margin: 3%; }
+  margin-bottom: 10%; }
   .cont2 h1 {
-    font-size: 27px;
+    font-size: 18px;
     background-color: red;
     padding: 5%;
     border-radius: 33px;
@@ -6121,11 +6125,12 @@ img.icn {
 
 .educativo {
   text-align: center;
-  padding: 10% 0; }
+  padding: 10% 5%; }
   .educativo h3 {
     text-align: center;
     color: white;
-    font-size: 35px; }
+    font-size: 25px;
+    margin: 3%; }
   .educativo h2 {
     text-align: center;
     font-size: 25px;
@@ -6150,10 +6155,11 @@ img.icn {
     border-radius: 50%; }
 
 .contc {
-  padding: 0px 42%;
   text-align: center;
   top: 47px;
-  position: relative; }
+  position: relative;
+  padding: 0;
+  width: 20%; }
   .contc h1 {
     font-size: 27px;
     background-color: transparent;
@@ -6163,13 +6169,13 @@ img.icn {
     border: 2px solid white; }
 
 .contc2 {
-  padding: 0px 30%;
+  padding: 0px 27%;
   text-align: center;
   top: 47px;
   position: relative;
-  margin: 0 0 5%; }
+  margin: 0 0 16%; }
   .contc2 h1 {
-    font-size: 27px;
+    font-size: 18px;
     background-color: transparent;
     padding: 5%;
     border-radius: 33px;
@@ -6294,7 +6300,8 @@ img.icn {
   top: 50px; }
 
 .ver-todos2 {
-  margin-top: 12% !important; }
+  margin-top: 12% !important;
+  margin-bottom: 10%; }
 
 .blog .ver-todos2 a {
   font-weight: 700;
@@ -6314,7 +6321,7 @@ img.icn {
   padding: 8% 5%; }
   .contactanos h2 {
     margin: 5%;
-    font-size: 50px;
+    font-size: 38px;
     color: grey; }
 
 .estilo-nombre {
@@ -6350,38 +6357,43 @@ img.icn {
   position: relative; }
   .buton.bt-enviar .butoncolor {
     background-color: transparent;
-    border: 0;
-    position: relative; }
+    border: 0; }
+    .buton.bt-enviar .butoncolor a {
+      color: white; }
 
 .estilo-nombre2 {
   height: 7%;
-  width: 75%;
+  width: 100%;
   border: 0;
   font-size: 17px;
-  margin: 1%;
-  text-align: center; }
+  margin: 2%;
+  text-align: center;
+  padding: 2%; }
 
 .correo2 {
   height: 7%;
-  width: 75%;
+  width: 100%;
   border: 0;
   font-size: 17px;
-  margin: 1%;
-  text-align: center; }
+  margin: 2%;
+  text-align: center;
+  padding: 2%; }
 
 .mensaje2 {
   height: 15%;
-  width: 75%;
+  width: 100%;
   border: 0;
   font-size: 17px;
-  margin: 1%;
-  text-align: center; }
+  margin: 2%;
+  text-align: center;
+  padding: 2%;
+  margin-bottom: 5%; }
 
 .buton.bt-enviar2 {
   width: 29%;
   background-color: grey;
   height: 36px;
-  padding: 9px;
+  padding: 3% 0;
   border-radius: 12px;
   top: 3px;
   color: white;
@@ -6389,8 +6401,9 @@ img.icn {
   position: relative; }
   .buton.bt-enviar2 .butoncolor2 {
     background-color: transparent;
-    border: 0;
-    position: relative; }
+    border: 0; }
+    .buton.bt-enviar2 .butoncolor2 a {
+      color: white; }
 
 .footer {
   color: #777777;

@@ -245,19 +245,20 @@
 /*celular*/
 
 .boton2{
-  width: 27%;
+  width: 30%;
   background-color: rgba(249, 6, 13, 0.84);
-  padding: 8px;
+  padding: 7px 3px;
   border-radius: 14px;
-  color: white;
   left: 68%;
   position: absolute;
   top: 14px; 
   text-align: center;
     h3{
     	  margin: 0;
-        font-size: 13px;
-         font-family: Lato;
+        font-family: Lato;
+        font-size: 72%;
+        font-weight: 700;
+        color: white;
     }
 
 }
@@ -627,7 +628,7 @@ img.icn {
  /*seccion de empresas*/
 .farolito-para-empresas{
   text-align: center;
-  padding: 10% 0;
+  padding: 13% 5%;
 
   h3{
     text-align: center;
@@ -636,7 +637,8 @@ img.icn {
   }
   h2{
     text-align: center;
-    font-size: 25px;
+    font-size: 27px;
+    margin: 5% 0;
     color: rgb(189, 188, 188);
   }
   hr{
@@ -645,7 +647,7 @@ img.icn {
 }
   p{
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
   }
   .row{
    margin-right: 0;
@@ -659,7 +661,7 @@ img.icn {
   }
 }
 .cont{
-  padding: 0px 42%;
+  width: 25%;
   text-align: center;
   top: 47px;
   position: relative;
@@ -673,13 +675,13 @@ img.icn {
        }
 }
 .cont2{
-  padding: 0px 30%;
+  padding: 0px 27%;
   text-align: center;
   top: 47px;
   position: relative;
-  margin: 3%;
+  margin-bottom: 10%;
      h1{
-         font-size: 27px;
+         font-size: 18px;
          background-color: red;
          padding: 5%;
          border-radius: 33px;
@@ -693,15 +695,16 @@ img.icn {
 }
 .educativo{
    text-align: center;
-   padding: 10% 0 ;
+   padding: 10% 5%;
   h3{
-    text-align: center;
-    color: white;
-    font-size: 35px;
+     text-align: center;
+     color: white;
+     font-size:25px;
+     margin:3%;
   }
   h2{
     text-align: center;
-    font-size: 25px;
+    font-size:25px;
     color: #fcf07e;
   }
   hr{
@@ -712,7 +715,7 @@ img.icn {
 }
   p{
     text-align: center;
-    font-size: 18px;
+    font-size:18px;
     color: white;
   }
   .row{
@@ -730,10 +733,11 @@ img.icn {
   }
 }
 .contc{
-  padding: 0px 42%;
   text-align: center;
   top: 47px;
   position: relative;
+  padding: 0;
+  width: 20%;
      h1{
          font-size: 27px;
          background-color: transparent;
@@ -744,13 +748,13 @@ img.icn {
        }
 }
 .contc2{
-  padding: 0px 30%;
+  padding: 0px 27%;
   text-align: center;
   top: 47px;
   position: relative;
-  margin: 0 0 5%;
+  margin: 0 0 16%;
      h1{
-         font-size: 27px;
+         font-size: 18px;
          background-color: transparent;
          padding: 5%;
          border-radius: 33px;
@@ -905,7 +909,9 @@ padding: 0 16%;
     top: 50px;
     } 
 .ver-todos2{
-    margin-top: 12% !important;}
+    margin-top: 12% !important;
+   margin-bottom: 10%;
+  }
 
 .blog .ver-todos2 a{
     font-weight: 700;
@@ -927,7 +933,7 @@ background-color: rgba(204, 203, 203, 0.72);
 padding: 8% 5%;
   h2 {
    margin: 5%;
-   font-size: 50px;
+   font-size: 38px;
    color: grey;
    }
 }
@@ -973,34 +979,38 @@ padding: 8% 5%;
 }
 .estilo-nombre2 {
   height: 7%;
-  width: 75%;
+  width: 100%;
   border: 0;
   font-size: 17px;
-  margin: 1%;
-  text-align: center;
+  margin: 2%;
+  text-align: center;  
+  padding: 2%;
 }
 .correo2{
   height: 7%;
-  width: 75%;
+  width: 100%;
   border: 0;
   font-size: 17px;
-  margin: 1%;
-  text-align: center;
+  margin: 2%;
+  text-align: center;  
+  padding: 2%;
 }
 .mensaje2{
   height: 15%;
-  width: 75%;
+  width: 100%;
   border: 0;
   font-size: 17px;
-  margin: 1%;
-  text-align: center;
+  margin: 2%;
+  text-align: center;  
+  padding: 2%;
+  margin-bottom: 5%;
 }
 
 .buton.bt-enviar2 {
   width: 29%;
   background-color: grey;
   height: 36px;
-  padding: 9px;
+  padding: 3% 0;
   border-radius: 12px;
   top: 3px;
   color: white;
